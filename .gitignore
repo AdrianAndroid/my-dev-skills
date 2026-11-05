@@ -1,0 +1,11 @@
+# editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# temp draft
+*.tmp
+*.draft
