@@ -1,8 +1,6 @@
 # my-dev-skills
 
-Personal development skill set, coding standards and engineering experience base. Platform-agnostic, built for AI-assisted development.
-
-> Current adapter: Codex Skill. Future adapters can include Cursor, Windsurf, Claude and local RAG.
+Personal development skill set, coding standards and engineering experience base for AI-assisted development.
 
 ## Structure
 
@@ -11,17 +9,17 @@ Personal development skill set, coding standards and engineering experience base
   - `arch-principles.md`: architecture layers and module boundaries
   - `pit-notes.md`: pitfalls, technical decisions and lessons from practice
   - `doc-template.md`: technical design and API document template
-- `adapters/codex/SKILL.md`: Codex skill entry point
+- `SKILL.md`: skill entry point
 
 ## Usage with Codex
 
-Keep the repository together so the adapter can read the shared `spec/` files. Add `adapters/codex/` as a local skill folder in Codex, or configure a skill installation that preserves its relative position within this repository. Invoke it explicitly with `$personal-dev-standard`; it can also be selected automatically for relevant development tasks.
+Keep the repository together so the skill can read the `spec/` files. Install the repository as a local skill folder in Codex. Invoke it explicitly with `$personal-dev-standard`; it can also be selected automatically for relevant development tasks.
 
 ## Accumulating experience
 
 1. Correct an output when it misses an expectation, and identify the reusable lesson.
 2. Update the relevant file under `spec/`: coding and output conventions, architecture boundaries, or pitfalls and tradeoffs. Record context and evidence for lessons so they are not applied outside their valid scope.
-3. Review and commit the change. Adapters that reference these files inherit the updated knowledge.
+3. Review and commit the change. The skill uses the updated knowledge.
 
 ## Covered stack
 
